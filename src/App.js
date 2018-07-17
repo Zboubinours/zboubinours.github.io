@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header logo='./img/kitty.svg'/>
+        <Header logo={logo}/>
         <div class="container">
           <h1>Hello world</h1>
           <Lorem/>
