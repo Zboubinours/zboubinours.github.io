@@ -1,4 +1,10 @@
-> This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# [`zboubinours.github.io`](http://zboubinours.github.io)
 
-# Hello world!
+<div align=center>
+![Status](https://img.shields.io/badge/status-development-orange.svg)
+[![URL](https://img.shields.io/badge/host-up-green.svg)](http://zboubinours.github.io)
+</div>
 
+# Project
+
+Portfolio written in JS using ReactJS and Bootstrap.
