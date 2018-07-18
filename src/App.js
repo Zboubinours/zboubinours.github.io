@@ -12,7 +12,7 @@ class App extends Component {
         <Header logo={logo}/>
         <div class="container">
           <h1>Hello world</h1>
-          <Lorem/>
+          <Lorem size="5"/>
         </div>
       </div>
     )
