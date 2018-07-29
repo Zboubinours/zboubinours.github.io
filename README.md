@@ -6,7 +6,7 @@
 # Summary
 
 * [TODO](./TODO.md)
-* [Project](#Project)
+* [Project](#project)
 
 # Project
 
