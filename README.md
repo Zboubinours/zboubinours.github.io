@@ -6,8 +6,12 @@
 # Summary
 
 * [TODO](./TODO.md)
+* [Back-end's README](./backend/README.md)
 * [Project](#project)
 
 # Project
 
-Portfolio written in JS using ReactJS and Bootstrap.
+Portfolio written in **JavaScript** using **ReactJS** and **Bootstrap**.
+API has been written using **Django** and its **REST framework**.
+Databse is **postgresql**.
+Whole project is 3 **docker** containers (front-end, back-end, database).
