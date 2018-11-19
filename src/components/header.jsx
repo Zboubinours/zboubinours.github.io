@@ -18,9 +18,10 @@ const Header = ({logo}) => (
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/">Resume<span class="sr-only">(current)</span>
-          </a>
+          <NavLink class="nav-item nav-link active" to="/">Resume<span class="sr-only">(current)</span>
+          </NavLink>
           <a class="nav-item nav-link" href="/projects/">Projects</a>
+            <a class="nav-item nav-link" href="https://zboubinours.github.io/sleep-cycle/">Sleep Cycle</a>
         </div>
       </div>
     </nav>
