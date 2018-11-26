@@ -4,14 +4,9 @@ import Banner from "./banner/banner";
 
 const Header = () => (
   <header id="home">
-    <Navbar />
+    <Navigation />
     <Banner />
-
-    <p class="scrolldown">
-      <a class="smoothscroll" href="#about">
-        <i class="icon-down-circle" />
-      </a>
-    </p>
+    <ScrollDown />
   </header>
 );
 
