@@ -12,17 +12,17 @@ const SocialLinks = () => (
   <ul className="social">
     <li>
       <a href="https://github.com/zboubinours/">
-        <i class="fa fa-github" />
+        <i className="fa fa-github" />
       </a>
     </li>
     <li>
       <a href="https://linkedin.com/in/rodguillaume">
-        <i class="fa fa-linkedin" />
+        <i className="fa fa-linkedin" />
       </a>
     </li>
     <li>
       <a href="https://instagram.com/zboubinours">
-        <i class="fa fa-instagram" />
+        <i className="fa fa-instagram" />
       </a>
     </li>
   </ul>

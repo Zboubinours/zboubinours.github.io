@@ -20,23 +20,27 @@ const styles = {
 };
 
 
-const ProjectCard = ({image, title, description}) => (
+class ProjectCard extends React.Component{
+  render() {
+    return (
     <Card style={{maxWidth: '345px'}}>
       <CardActionArea>
-        <CardMedia style={{height: '140px'}} image={image} title={title} />
+        <CardMedia style={{height: '140px'}} image={this.props.image} title={this.props.title} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {title}
+            {this.props.title}
           </Typography>
-          <Typography component="p">{description}</Typography>
+          <Typography component="p">{this.props.description}</Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button href={this.props.link} size="small" color="primary">
           Learn More
         </Button>
       </CardActions>
     </Card>
   );
+}
+}
 
 export default ProjectCard;
