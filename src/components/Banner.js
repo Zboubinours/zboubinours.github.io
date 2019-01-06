@@ -6,7 +6,7 @@ const Banner = ({headline, description}) => (
     <div className="banner-text">
       <h1 className="responsive-headline">{headline}</h1>
       <h3>
-        {description}
+        {description} I'm interested in web development. <a href="mailto:rodguillaume@tuta.io">Feel free to contact me.</a>
       </h3>
       <hr />
       <SocialLinks />

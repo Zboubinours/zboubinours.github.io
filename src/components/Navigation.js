@@ -35,6 +35,11 @@ class Navigation extends React.Component {
             Projects
           </a>
         </li>
+        <li>
+          <a className="smoothscroll" href="mailto:rodguillaume@tuta.io">
+            Contact Me
+          </a>
+        </li>
       </ul>
     </nav>
   )}

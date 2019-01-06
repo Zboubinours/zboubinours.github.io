@@ -10,27 +10,18 @@ const Skills = () => (
 
     <div className="nine columns main-col">
       <p>
-        Self assessed level, on how comfortable I am when developing with the
-        language.
+        Self assessed level, on how comfortable I am when developing with the language or working in this field.
       </p>
 
       <div className="bars">
         <ul className="skills">
           <li>
             <span className="bar-expand java" />
-            <em>Java (Spring Boot, Data)</em>
+            <em>Backend (Java Spring, Python Django)</em>
           </li>
           <li>
             <span className="bar-expand python" />
-            <em>Python (Django)</em>
-          </li>
-          <li>
-            <span className="bar-expand angular" />
-            <em>Angular</em>
-          </li>
-          <li>
-            <span className="bar-expand reactjs" />
-            <em>ReactJS</em>
+            <em>Frontend(Angular, ReactJS)</em>
           </li>
         </ul>
       </div>
