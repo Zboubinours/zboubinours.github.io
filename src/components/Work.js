@@ -11,9 +11,9 @@ const Work = () => (
         <div className="nine columns main-col">
             <div className="row item">
                 <div className="twelve columns">
-                    <h3>Milleis Banque, Paris</h3>
+                    <h3>Web developer</h3>
                     <p className="info">
-                        Web developer
+                        Milleis Banque, Paris
                         <span>&bull;</span>
                         <em className="date">Oct 2018 - Sept 2020</em>
                     </p>
